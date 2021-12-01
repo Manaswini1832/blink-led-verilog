@@ -1,0 +1,7 @@
+Clock freq = 50Hz
+=> Clock period = 1/50 = 0.02s = 2e7 nanoseconds which will be the simulation time unit in the test bench timescale
+
+LED switches on at positive edge of the clock and stays on for 0.01s = 1e7 nanoseconds which is 50% of the clk period
+
+DOESN'T WORK AS EXPECTED
+NOT SURE WHAT THE HELL IS WRONG!!!
